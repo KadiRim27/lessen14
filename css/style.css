@@ -1,0 +1,396 @@
+/* &display=swap */
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+}
+
+body {
+	font-size: 16px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+
+}
+
+/* ================================================================ */
+
+[class*="__container"] {
+	margin: 0px auto;
+	max-width: 1050px;
+}
+
+
+.header {
+	background: url("../img/logo/image.jpg") 0 0 /cover no-repeat;
+	padding: 0px 0px 230px 0px;
+}
+
+.header__container {}
+
+.header__top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0px 30px 0px;
+	flex-wrap: wrap;
+}
+
+.header__contact {
+	flex-wrap: wrap;
+	font-size: 12px;
+	line-height: 183%;
+	letter-spacing: 0.15px;
+	color: #FFFFFF;
+
+}
+
+.header__contact *:not(:last-child) {
+	margin: 0px 45px 0px 0px;
+
+}
+
+.header__contact_margin {
+	display: inline-flex;
+	position: relative;
+	right: -140px;
+	top: 0;
+}
+
+.header__logo {
+	max-width: 100%;
+
+}
+
+.header__logo_margin {
+	transform: translate(-150px, 5px);
+}
+
+.header__icon {
+	width: 100%;
+}
+
+.header__time {
+	max-width: 172px;
+	font-weight: 700;
+}
+
+.header__time::before {
+	content: "";
+	display: flex;
+	background: url("../img/logo/time.svg") 0 0 /24px no-repeat;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 25px;
+	left: -35px;
+
+}
+
+
+.header__phone::before {
+	content: "";
+	display: flex;
+	background: url("../img/logo/phone.svg") 0 0 /24px no-repeat;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 25px;
+	left: -35px;
+
+}
+
+.header__phone {
+	max-width: 97px;
+	font-weight: 500;
+}
+
+.button {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	align-self: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background: #F2726F;
+	padding: 9px 34px 9px 34px;
+	border-radius: 5px;
+	min-height: 40px;
+	color: #FFFFFF;
+	transition: all 0.8s ease 0s;
+}
+
+.button:hover {
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+	background: rgba(0, 0, 0, 0.15);
+}
+
+
+
+.button-link {
+	transform: translate(0px, 10px);
+}
+
+.header__menu {
+	display: flex;
+	background: #FFFFFF;
+	padding: 20px 40px;
+	position: relative;
+	border-radius: 10px;
+
+}
+
+.header__nav {
+	padding: 0px 0px 126px 0px;
+}
+
+.list {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.57;
+	letter-spacing: 0.15px;
+}
+
+.list__item {
+	display: inline-flex;
+	padding: 0px 17px;
+
+}
+
+.list__item :hover {
+	color: blue;
+	transition: all 0.5s ease 0s;
+}
+
+.list__link_icon::after {
+	content: "";
+	display: inline-flex;
+	width: 16px;
+	height: 16px;
+	background: url("../img/logo/more.svg") 0 0 /16px no-repeat;
+	position: relative;
+	top: 5px;
+	left: 5px;
+
+}
+
+.header__basket {
+	position: absolute;
+	top: 15px;
+	right: 40px;
+}
+
+
+.header__image-search:not(:last-child) {
+	margin: 0px 20px 0px 0px;
+}
+
+.header__number {
+	background: #F2726F;
+	display: inline-flex;
+	min-width: 16px;
+	min-height: 16px;
+	color: #FFFFFF;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	border-radius: 50%;
+	font-weight: 500;
+	font-size: 10px;
+	/*line-height: 2.20;*/
+	padding: 4px 6px;
+	transform: translate(-10px, -7px);
+
+}
+
+.header__content {
+	display: inline-flex;
+	flex-direction: column;
+	padding: 0px 20px 0px 20px;
+
+
+}
+
+.header__title {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 1;
+	color: #FFFFFF;
+	max-width: 583px;
+}
+
+.button_position {
+	position: relative;
+	top: 0;
+	left: -180px;
+}
+
+.header__title_margin:not(:last-child) {
+	margin: 0px 0px 50px 0px;
+}
+
+.main {}
+
+.who-we-are {
+
+	position: relative;
+	top: -90px;
+	left: 0;
+}
+
+.who-we-are__container {
+	background: #5D62B5 url("../img/main/blob2.svg")-10px 340px no-repeat;
+	border-radius: 40px;
+	padding: 100px 0px 0px 90px;
+}
+
+.block-header {}
+
+.block-header__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #F5F5F5;
+}
+
+.block-header__sub-title_margin::before {
+	background: url("../img/main/overlinemark.svg") 0 0/17px no-repeat;
+	content: "";
+	width: 17px;
+	height: 17px;
+	display: inline-flex;
+	position: relative;
+	top: 5px;
+	left: 0;
+
+}
+
+.block-header__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+	max-width: 583px;
+}
+
+.block-header__sub-title_margin {
+	margin: 0px 0px 33px 0px;
+}
+
+.wo-we-are__items {
+	padding: 40px 0px 0px 0px;
+
+}
+
+.wo-we-are__text {
+	max-width: 846px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+}
+
+.wo-we-are__text_margin {
+	/*margin: 0px 0px 54px 0px;*/
+}
+
+.wo-we-are__image {
+	max-width: 100%;
+	position: relative;
+	bottom: -130px;
+	left: -15px;
+	display: inline-flex;
+}
+
+.wo-we-are__picture {
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+
+}
+
+.promise {
+	padding: 110px 0px 110px 0px;
+}
+
+.block-header__sub-title_color {
+	color: #5D62B5;
+	margin: 0px 0px 30px 0px;
+}
+
+.block-header__sub-title_color::before {
+	background: url("../img/promise/promisititl.svg") 0 0/17px no-repeat;
+	content: "";
+	width: 17px;
+	height: 17px;
+	display: inline-flex;
+	position: relative;
+	top: 5px;
+	left: 0;
+
+}
+
+.block-header__title_color {
+
+	color: #000000;
+	margin: 0px 0px 60px 0px;
+}
+
+.promise__column {}
+
+.promise__items {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	margin: 0px -12px;
+}
+
+.promise__item {
+	display: inline-flex;
+	flex: 0 1 33.333%;
+	padding: 0px 12px;
+}
+
+.promise__image {
+	max-width: 100%;
+	padding: 0px 10px 0px 0px;
+}
+
+.promise__picture {
+	flex: 0 0 63px;
+	width: 63px;
+	height: 63px;
+}
+
+
+
+.promise__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 137%;
+	color: #F2726F;
+}
+
+.promise__title_margin:not(:last-child) {
+	margin: 0px 0px 20px 0px;
+}
+
+
+.promise__text {
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
